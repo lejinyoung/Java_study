@@ -9,6 +9,8 @@ public class Study_220130_Eg3_6 {
 //        System.out.println((float)fahrenheit); int를 float로 바꿀 때에는 (float)OOO 이다.
         float celcius = (((float)fahrenheit - 32) * 5/9);   // 반올림 어떻게 하지.
 
+//        System.out.println(5 / 9.0);
+//        System.out.println(5/9 * ((float)fahrenheit - 32));
         System.out.println("Fahrenheit: " + fahrenheit);
         System.out.println("Celcius: " + celcius);
     }

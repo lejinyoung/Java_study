@@ -32,5 +32,10 @@ public class Study_220130_Eg4_1 {
         String str;
         str = "yes";
         if (str == "yes") System.out.println("True8");
+        if (str.equals("yes")) System.out.println("True8");
+
+        String str2 = new String("yes");
+        if (str == str2) System.out.println("True9");   // 어드레스 비교
+        if (str.equals(str2)) System.out.println("True9");  // 문자열 비교
     }
 }
