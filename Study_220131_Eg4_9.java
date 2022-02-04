@@ -10,6 +10,6 @@ public class Study_220131_Eg4_9 {
             i++;
             num /= 10;
         }
-        System.out.println(num);
+        for (n = i; )
     }
 }
